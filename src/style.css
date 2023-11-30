@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.nav-bar{
+    display: flex;
+    padding: 20px 36px ;
+    box-shadow: 0px 2.98256px 7.4564px rgba(45, 154, 205, 0.1);
+}
+
+
+.nav-title{
+    color: rgb(0, 195, 255);
+}
+.travel-img{
+    width: 70px;
+}
+
+.hero-section{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+}
+
+.grid-img{
+    max-width: 500%;
+    align-self: center;
+}
+
+.hero-title{
+    margin-bottom: -5px;
+    font-size: xx-large;
+
+}
+.hero-dets{
+    font-size: x-large;
+}
+
+.cards-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.cards {
+    font-size: 15px;
+    display: flex;         
+    flex-direction: column; 
+    flex-wrap: wrap;
+    position: relative;
+    justify-content:space-between;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-block-end: 20px;
+}
+
+.card--star{
+    width: 20px;
+}
+
+.card--img{
+    height: 400px;
+    width: 500px;
+    border-radius:10px ;  
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+
+.card--title{
+    margin-bottom: -10px;
+}
+
+.card--price{
+    margin-top: -10px;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: rgb(156, 219, 246);
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+} 
+.grey{
+    color: grey;
+    font-size: large;
+}
+.rating{
+    font-size: large;
+}
+.description{
+    font-size: large;
+}
